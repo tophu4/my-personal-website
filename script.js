@@ -1,3 +1,12 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+
+const addButton = document.getElementById("addButton");
+const subtractButton = document.getElementById("subtractButton");
+const sum = document.getElementById("sum").innerHTML;
+
+function addToSum(n) {
+    document.getElementById("sum").innerHTML = parseInt(document.getElementById("sum").innerHTML,10) + n;
+}
+
+function setSum(n) {
+    document.getElementById("sum").innerHTML = n;
+}

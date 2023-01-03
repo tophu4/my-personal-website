@@ -2,4 +2,13 @@ body {
     font-family: sans-serif;
     color: white;
     background: #282828;
+    text-align: center;
+}
+
+button {
+    color: black;
+}
+
+#sum {
+    font-size: 10em;
 }
